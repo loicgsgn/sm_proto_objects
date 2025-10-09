@@ -1,0 +1,26 @@
+{
+  "verbose": false,
+  "nb_iter_metric": 10000,
+  "snr_array": [
+    40
+  ],
+  "nb_iter_inference_per_object": 200,
+  "camera_side_size": 10,
+  "actions": [
+    0
+  ],
+  "transformations": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "object_side_size": 5,
+  "rejection_threshold": 6.0,
+  "update_rate": 0.8,
+  "initial_likelihood": 0.2,
+  "object_rejection_threshold": 0.2,
+  "seed": 50,
+  "save_dir": "fixed_results/exp_904"
+}

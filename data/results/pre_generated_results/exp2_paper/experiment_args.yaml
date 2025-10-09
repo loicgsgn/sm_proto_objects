@@ -1,0 +1,25 @@
+actions:
+- 0
+- 1
+- 2
+- 3
+- 4
+camera_side_size: 10
+image_env_path: data/environments/NatWdwF.jpeg
+nb_iter_inference_per_object: 100
+nb_iter_metric: 10000
+nb_seeds: 100
+snr_array:
+- 0
+- 10
+- 20
+- 30
+- 40
+- 60
+transformations:
+- 0
+- 1
+- 2
+- 3
+- 4
+verbose: true

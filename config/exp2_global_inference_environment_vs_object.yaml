@@ -1,0 +1,17 @@
+experiment_name: "global_inference_environment_vs_object"
+output_dir: "data/results/exp2/002_inference_environment_vs_object"
+
+# Fixed Parameters
+verbose: True
+nb_iter_metric: 10000
+nb_iter_inference_per_object: 10
+image_env_path: "data/environments/NatWdwF.jpeg"
+camera_side_size: 10
+actions: [0, 1, 2, 3, 4]
+transformations: [0, 1, 2, 3, 4]
+nb_seeds: 10 
+
+# Parameters to vary
+snr_array: [0, 10, 20, 30, 40, 60]
+
+

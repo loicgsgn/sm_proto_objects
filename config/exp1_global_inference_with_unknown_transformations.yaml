@@ -1,0 +1,14 @@
+experiment_name: "global_inference_with_unknown_transformations"
+output_dir: "data/results/exp1/001_inference_with_global_transformations"
+
+image_env_path: "data/environments/NatWdwF.jpeg"
+camera_side_size: 10
+snr: 40
+seed: 100
+
+nb_iter_metric: 10000
+nb_iter_inference: 10000
+
+actions: [0, 1, 2, 3, 4]
+transformations: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+verbose: True
